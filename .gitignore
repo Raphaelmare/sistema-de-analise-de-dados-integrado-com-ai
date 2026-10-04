@@ -1,0 +1,41 @@
+# Ambientes Virtuais Python
+backend/venv/
+venv/
+env/
+ENV/
+
+# Credenciais e Variaveis de Ambiente (Critico: NUNCA versionar)
+backend/.env
+.env
+*.env.local
+.env.*
+!.env.example
+backend/.env.*
+!backend/.env.example
+
+# Testes locais (nao publicar no repositorio)
+**/test*.py
+
+# Arquivos de Cache e Compilacao Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Dados Locais e Arquivos Temporarios de Upload
+backend/data/
+backend/data/uploads/*
+backend/data/vector_db/*
+backend/data/test_samples/*
+!backend/data/uploads/.gitkeep
+!backend/data/vector_db/.gitkeep
+
+# Logs do Sistema
+*.log
+backend/*.log
+
+# Arquivos de IDE e Sistema Operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

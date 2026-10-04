@@ -1,0 +1,22 @@
+# Framework da API e servidor ASGI.
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-dotenv>=1.0.1
+python-multipart>=0.0.9
+
+# SDK oficial do Google Gemini.
+google-genai>=0.1.1
+
+# Processamento e análise de dados tabulares.
+pandas==2.2.3
+openpyxl>=3.1.5
+duckdb>=1.0.0
+
+# Extração de texto de PDFs e integração vetorial.
+pypdf>=4.3.0
+chromadb>=0.5.5
+
+# Cliente do Supabase (PostgreSQL e pgvector).
+supabase>=2.32.0
